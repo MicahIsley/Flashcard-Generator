@@ -10,7 +10,7 @@ var second = process.argv[5];
 if(cardType == "basic"){
 	function makeBasicCard(front, back){
 		newBasicCard = new basicCard(front, back);
-		console.log(newQuestion);
+		console.log(newBasicCard);
 	}
 
 	makeBasicCard(first, second);
